@@ -1,46 +1,64 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>М│╛К·≤М■└М├╓ Л═∙Й╦─ | HTML Й╦╟Л╢┬</title>
     <style>
-        /* ╦П╣Г еб╠в©║ юШ©Кго╟М ╫мю╩ ╤╖ */
-        * {
-            ╪с╪╨: ╪╠ецаЖ;
+        .wrap {
+            width: 50%;
+        }
+        
+        div {
+            color: blue;
         }
 
-        /* ф╞а╓ еб╠в╦╕ аЖд╙гр ╤╖ */
-        еб╠в {
-            ╪с╪╨1: ╪╠ецаЖ1;
-            ╪с╪╨2: ╪╠ецаЖ2;
+        #div-1 > h5 {
+            font-weight: bold;
         }
 
-        /* е╛╥║╫╨ юл╦╖ ╬у©║╢б .ю╩ бО╢б╢ы. */
-        .е╛╥║╫╨ {
-            ╪с╪╨: ╪╠ецаЖ;
+        .italic-text {
+            font-style: italic;
         }
 
-        /* ╬фюл╣П ╬у©║╢б #ю╩ ╨ыюн╢ы. */
-        #╬фюл╣П {
-            ╪с╪╨: ╪╠ецаЖ;
+        div > div > div {
+            background-color: red;
         }
 
-        /* ф╞а╓ е╛
-        ╥║╫╨╦╕ ╟╝╢б ф╞а╓ еб╠в╦╕ аЖд╙гр ╤╖╢б е╛╥║╫╨╦╕ ╣з©║ ╨ы©╘ ╬╢╢ы */
-        еб╠в.е╛╥║╫╨ {
-            ╪с╪╨: ╪╠ецаЖ;
+        .small-div {
+            width: 200px;
         }
 
-        /* юз╫д ╪╠ецюз╢б > ╣з©║ юШ╢б╢ы */
-        /* аО, ╬ф╥║╢б '╬фюл╣П'╤С╢б ╬фюл╣П╦╕ ╟╝╢б ©Д╪р ╧ы╥н ╬хюг 'еб╠в' еб╠в╦╕ ╪╠ецгя ╟мюл╢ы */
-        #╬фюл╣П>еб╠в {
-            ╪с╪╨: ╪╠ецаЖ;
+        .green-text {
+            color: green;
         }
 
-        /* юз╪у ╪╠ецюз╢б ╤Г╬Н╬╡╠Б╥н ╠╦╨пгя╢ы. */
-        /* аО, ╬ф╥║╢б 'е╛╥║╫╨'╤С╢б е╛╥║╫╨╦╕ ╟╝╢б 'еб╠в1' еб╠в ╬х©║ юж╢б ╦П╣Г 'еб╠в2'╦╕ ╪╠ецгя ╟мюл╢ы */
-        еб╠в1.е╛╥║╫╨ еб╠в2 {
-            ╪с╪╨: ╪╠ецаЖ;
+        #my-h3 {
+            text-align: right;
         }
+        
+
     </style>
 </head>
-
+<body>
+    <h1>1К╡┬ h1</h1>
+    <div class="wrap">
+        <div>
+            <h3>1К╡┬ h3</h3>
+            <div id="div-1">
+                <h3 id="my-h3" class="italic-text">2К╡┬ h3</h3>
+                <h5>1К╡┬ h5</h5>
+                <h5 class="italic-text green-text">2К╡┬ h5</h5>
+                </div>
+            <div class="small-div">
+                <h3 class="green-text">3К╡┬ h3</h3>
+                <h3>4К╡┬ h3</h3>
+                <h5>3К╡┬ h5</h5>
+            </div>
+            <h5>4К╡┬ h5</h5>
+        </div>
+        
+    </div>
+    <h5>5К╡┬ h5</h5>
+</body>
 </html>

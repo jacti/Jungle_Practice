@@ -57,6 +57,15 @@
       color: blue;
       font-size: 16px;
     }
+
+    .form-box {
+      width: 400;
+      height: 300;
+      border: solid;
+      border-radius: 8px;
+      padding: 1em;
+      margin: 10px;
+    }
   </style>
 
   <title>크래프톤 정글 | 부트스트랩 연습하기</title>
@@ -69,6 +78,17 @@
       <p class="lead">중요한 링크를 저장해두고, 나중에 볼 수 있는 공간입니다</p>
       <hr class="my-4">
       <a class="btn btn-primary btn-lg" href="#" role="button">포스팅박스 열기</a>
+    </div>
+    <div class ="form-box">
+      <div class="form-group">
+        <label for="articleUrl">아티클 url</label>
+        <input type="text" class="form-control" id="articleUrl" >
+      </div>
+      <div class="form-group">
+        <label for="simpleComment">간단 코멘트</label>
+        <textarea class="form-control" id="simpleComment"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">기사저장</button>
     </div>
     <div class="card-columns">
       <div class="card">
